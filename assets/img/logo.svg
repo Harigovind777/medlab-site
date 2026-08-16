@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 100" width="420" height="100" role="img" aria-label="Medlab Enterprises">
+  <title>Medlab Enterprises</title>
+  <defs>
+    <linearGradient id="lgBadge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#164A5B"/>
+      <stop offset="0.55" stop-color="#0E2E3A"/>
+      <stop offset="1" stop-color="#08161C"/>
+    </linearGradient>
+    <mask id="lgPlate">
+      <rect width="100" height="100" fill="#000"/>
+      <polyline points="25,75 25,29 50,57 75,29 75,75"
+                fill="none" stroke="#fff" stroke-width="12.5"
+                stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="25" cy="29" r="3.6" fill="#000"/>
+      <circle cx="75" cy="29" r="3.6" fill="#000"/>
+      <circle cx="50" cy="57" r="3.6" fill="#000"/>
+      <circle cx="25" cy="70" r="3.6" fill="#000"/>
+      <circle cx="75" cy="70" r="3.6" fill="#000"/>
+    </mask>
+  </defs>
+
+  <rect width="100" height="100" rx="24" fill="url(#lgBadge)"/>
+  <rect width="100" height="100" rx="24" fill="#fff" mask="url(#lgPlate)"/>
+  <circle cx="50" cy="57" r="3.6" fill="#F26522"/>
+
+  <text x="122" y="52" font-family="Archivo, 'Arial Black', Helvetica, sans-serif"
+        font-size="38" font-weight="800" letter-spacing="-1.4" fill="#0E2E3A">MEDLAB</text>
+  <text x="124" y="76" font-family="'IBM Plex Mono', 'SF Mono', Consolas, monospace"
+        font-size="13" font-weight="500" letter-spacing="4.6" fill="#5C7A88">ENTERPRISES</text>
+</svg>
